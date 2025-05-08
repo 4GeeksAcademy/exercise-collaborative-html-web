@@ -7,27 +7,30 @@
 </head>
 <body>
 
-    <div class="container-fluid">
+    <div id="contact" class="container-fluid">
         <h1>Contact</h1>
-        <h3>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consecteteur. Furce dapibus, tellus ac cursus commodo.</h3>
-    </div>
+        <h5>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consecteteur. Furce dapibus, tellus ac cursus commodo.</h5>
+        <form id="contact-form" class="bg-light mt-4 border">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="col-form-label">Your E-mail</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group"> 
+            <label for="comentarios">Deje aquí sus comentarios</label>
+            <textarea class="form-control" rows="5" id="yourmessage" name="comentarios"></textarea>
+          </div> 
+  
+          <div class=" d-flex justify-content-end">
+            <button type="submit" class=" btn btn-primary mb-3">Submit</button>
+          </div>
+  
+         
+        </form>
+   
+   
+      </div>
 
-    <form class="bg-light m-5">
-        <div class="px-5 mb-3">
-          <label for="exampleInputEmail1" class="form-label">Your E-mail</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="px-5 mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-
-        <div class=" d-flex justify-content-end">
-          <button type="submit" class=" btn btn-primary mx-2 mt-1 mb-3">Submit</button>
-        </div>
-
-       
-      </form>
+    
     
 </body>
 </html>

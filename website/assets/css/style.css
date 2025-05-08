@@ -1,6 +1,5 @@
 body{
     margin: auto;
-    max-width: 1200px;
     
 }
 
@@ -13,6 +12,11 @@ body{
 #contact-form {
     margin: auto;
     max-width: 800px;
-    padding-left: 60px;
-    padding-right: 16px;
+
+}
+
+
+#footer{
+    max-width: 1200px;
+    margin: auto;
 }

@@ -3,11 +3,7 @@ body{
     
 }
 
-#contact{
-    max-width: 1200px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
+
 
 #contact-form {
     margin: auto;
@@ -17,6 +13,6 @@ body{
 
 
 #footer{
-    max-width: 1200px;
+    max-width: 960px;
     margin: auto;
 }

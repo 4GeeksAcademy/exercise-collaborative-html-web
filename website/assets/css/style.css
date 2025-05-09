@@ -1,22 +1,5 @@
-body{
-    margin: auto;
-    
-}
-
-#contact{
-    max-width: 1200px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
 #contact-form {
     margin: auto;
     max-width: 800px;
 
-}
-
-
-#footer{
-    max-width: 1200px;
-    margin: auto;
 }
